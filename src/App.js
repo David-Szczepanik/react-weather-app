@@ -38,7 +38,7 @@ function App() {
 
   const getData = () => {
     axios
-      .get("https://pocasiunas.azurewebsites.net/weather")
+      .get("https://app-springweatherapi-2024.azurewebsites.net/weather-all")
       .then(function (response) {
         //console.log(response.data);
         setWeatherData(response.data);
